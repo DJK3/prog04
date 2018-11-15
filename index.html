@@ -155,17 +155,17 @@ function genObjectArray() {
 			'zodiacSign': function() {
 				//Western Zodiac
 				if (this.country=='USA'){
-					if ((this.solarBirthMonth=='January' && this.solarBirthDay<=19) || (this.solarBrithMonth=='December' && this.solarBirthDay>=22)) return 'Capricorn';
-					else if ((this.solarBirthMonth=='January' && this.solarBirthDay>=20) || (this.solarBirthMonth=='February' && this.solarBirthDay<=18)) return 'Aquarius';
-					else if ((this.solarBirthMonth=='February' && this.solarBirthDay>=19) || (this.solarBirthMonth=='March' && this.solarBirthDay<=20)) return 'Pisces';
-					else if ((this.solarBirthMonth=='March' && this.solarBirthDay>=21) || (this.solarBirthMonth=='April' && this.solarBirthDay<=19)) return 'Aries';
-					else if ((this.solarBirthMonth=='April' && this.solarBirthDay>=20) || (this.solarBirthMonth=='May' && this.solarBirthDay<=20)) return 'Taurus';
-					else if ((this.solarBirthMonth=='May' && this.solarBirthDay>=21) || (this.solarBirthMonth=='June' && this.solarBirthDay<=20)) return 'Gemini';
-					else if ((this.solarBirthMonth=='June' && this.solarBirthDay>=21) || (this.solarBirthMonth=='July' && this.solarBirthDay<=22)) return 'Cancer';
-					else if ((this.solarBirthMonth=='July' && this.solarBirthDay>=23) || (this.solarBirthMonth=='August' && this.solarBirthDay<=22)) return 'Leo';
-					else if ((this.solarBirthMonth=='August' && this.solarBirthDay>=23) || (this.solarBirthMonth=='September' && this.solarBirthDay<=22)) return 'Virgo';
-					else if ((this.solarBirthMonth=='September' && this.solarBirthDay>=23) || (this.solarBirthMonth=='October' && this.solarBirthDay<=22)) return 'Libra';
-					else if ((this.solarBirthMonth=='October' && this.solarBirthDay>=23) || (this.solarBirthMonth=='November' && this.solarBirthDay<=21)) return 'Scorpio';
+					if ((this.solarBirthMonth==1 && this.solarBirthDay<=19) || (this.solarBrithMonth==12 && this.solarBirthDay>=22)) return 'Capricorn';
+					else if ((this.solarBirthMonth==1 && this.solarBirthDay>=20) || (this.solarBirthMonth==2 && this.solarBirthDay<=18)) return 'Aquarius';
+					else if ((this.solarBirthMonth==2 && this.solarBirthDay>=19) || (this.solarBirthMonth==3 && this.solarBirthDay<=20)) return 'Pisces';
+					else if ((this.solarBirthMonth=='3 && this.solarBirthDay>=21) || (this.solarBirthMonth==4' && this.solarBirthDay<=19)) return 'Aries';
+					else if ((this.solarBirthMonth==4 && this.solarBirthDay>=20) || (this.solarBirthMonth==5 && this.solarBirthDay<=20)) return 'Taurus';
+					else if ((this.solarBirthMonth==5 && this.solarBirthDay>=21) || (this.solarBirthMonth==6 && this.solarBirthDay<=20)) return 'Gemini';
+					else if ((this.solarBirthMonth==5 && this.solarBirthDay>=21) || (this.solarBirthMonth==7 && this.solarBirthDay<=22)) return 'Cancer';
+					else if ((this.solarBirthMonth==6 && this.solarBirthDay>=23) || (this.solarBirthMonth==8 && this.solarBirthDay<=22)) return 'Leo';
+					else if ((this.solarBirthMonth==8 && this.solarBirthDay>=23) || (this.solarBirthMonth==9 && this.solarBirthDay<=22)) return 'Virgo';
+					else if ((this.solarBirthMonth==9 && this.solarBirthDay>=23) || (this.solarBirthMonth==10 && this.solarBirthDay<=22)) return 'Libra';
+					else if ((this.solarBirthMonth==10 && this.solarBirthDay>=23) || (this.solarBirthMonth==11 && this.solarBirthDay<=21)) return 'Scorpio';
 					else return 'Sagittarius';
 				}
 				//Chinese Zodiac
